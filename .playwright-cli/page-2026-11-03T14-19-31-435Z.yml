@@ -1,0 +1,110 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "LAW B2B — home" [ref=e5] [cursor=pointer]:
+        - /url: index.html
+        - img "LAW B2B" [ref=e6]
+      - navigation "Main navigation" [ref=e7]:
+        - link "Services" [ref=e8] [cursor=pointer]:
+          - /url: index.html#services
+        - link "Pricing" [ref=e9] [cursor=pointer]:
+          - /url: index.html#pricing
+        - link "Process" [ref=e10] [cursor=pointer]:
+          - /url: index.html#process
+        - link "FAQ" [ref=e11] [cursor=pointer]:
+          - /url: index.html#faq
+      - generic [ref=e12]:
+        - generic "Language selection" [ref=e13]:
+          - button "RU" [ref=e14] [cursor=pointer]
+          - generic [aria-hidden] [ref=e15]: /
+          - button "EN" [pressed] [ref=e16] [cursor=pointer]
+        - link "+7 929 978-01-79" [ref=e17] [cursor=pointer]:
+          - /url: tel:+79299780179
+        - link "Consultation" [ref=e18] [cursor=pointer]:
+          - /url: index.html#consultation
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - link "← Back to home" [ref=e21] [cursor=pointer]:
+        - /url: index.html
+      - article [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e24]: LAW B2B · lawb2b.ru
+          - heading "Privacy Policy" [level=1] [ref=e27]
+          - paragraph [ref=e28]: Version dated 3 November 2026
+        - generic [ref=e29]: By selecting the relevant checkbox in a website form, the user confirms that they have read and agree to this Privacy Policy.
+        - generic [ref=e30]:
+          - heading "1. General provisions" [level=2] [ref=e31]
+          - paragraph [ref=e32]:
+            - text: This Policy applies to information that the LAW B2B website at
+            - strong [ref=e33]: lawb2b.ru
+            - text: may receive about a user when they visit the website or submit an enquiry.
+          - paragraph [ref=e34]: The LAW B2B website administration organises personal data processing, determines its purposes and takes steps to protect the information received.
+          - paragraph [ref=e35]: The website may link to Telegram, WhatsApp and other third-party resources. LAW B2B does not control how those resources process data.
+        - generic [ref=e36]:
+          - heading "2. Data we process" [level=2] [ref=e37]
+          - paragraph [ref=e38]: "A user may provide the following information through the enquiry form:"
+          - list [ref=e39]:
+            - listitem [ref=e40]: name;
+            - listitem [ref=e41]: contact phone number;
+            - listitem [ref=e42]: selected page language;
+            - listitem [ref=e43]: confirmation of consent.
+          - paragraph [ref=e44]: Technical information may also be processed automatically, including IP address, cookies, browser and device type, visit time, pages viewed, referral source and interactions with website elements.
+        - generic [ref=e45]:
+          - heading "3. Purposes of processing" [level=2] [ref=e46]
+          - paragraph [ref=e47]: "The information may be used to:"
+          - list [ref=e48]:
+            - listitem [ref=e49]: process an enquiry and contact the user;
+            - listitem [ref=e50]: provide information about company formation and support services;
+            - listitem [ref=e51]: prepare a consultation and a project proposal;
+            - listitem [ref=e52]: maintain stable and secure website operation;
+            - listitem [ref=e53]: analyse traffic and improve the interface;
+            - listitem [ref=e54]: comply with applicable legal requirements.
+        - generic [ref=e55]:
+          - heading "4. Cookies and analytics" [level=2] [ref=e56]
+          - paragraph [ref=e57]: The website may use cookies and web analytics services, including Yandex Metrica and Google Analytics. These services help assess traffic sources, visits, device characteristics and visitor actions on the website.
+          - paragraph [ref=e58]: Users can restrict cookies in their browser settings. This may affect certain website functions.
+        - generic [ref=e59]:
+          - heading "5. Processing and retention" [level=2] [ref=e60]
+          - paragraph [ref=e61]: Data is processed by automated or other means only to the extent required for the stated purposes. It is retained no longer than necessary to handle an enquiry, perform obligations and meet applicable requirements.
+          - paragraph [ref=e62]:
+            - text: Enquiry data may be processed through the hosting and email infrastructure used to deliver the message to
+            - link "easy-twice@yandex.ru" [ref=e63] [cursor=pointer]:
+              - /url: mailto:easy-twice@yandex.ru
+            - text: .
+        - generic [ref=e64]:
+          - heading "6. Disclosure to third parties" [level=2] [ref=e65]
+          - paragraph [ref=e66]: LAW B2B does not sell personal data. Information may be shared with providers that support the website, hosting, email delivery and analytics, only to the extent required to provide those services.
+          - paragraph [ref=e67]: Information may also be disclosed to public authorities where legally required and through the applicable procedure.
+        - generic [ref=e68]:
+          - heading "7. Data security" [level=2] [ref=e69]
+          - paragraph [ref=e70]: LAW B2B takes reasonable organisational and technical measures to protect information from unauthorised access, alteration, copying, disclosure, blocking or destruction.
+        - generic [ref=e71]:
+          - heading "8. User rights" [level=2] [ref=e72]
+          - paragraph [ref=e73]:
+            - text: A user may request information about their data, ask for correction, restriction or deletion, or withdraw consent by emailing
+            - link "easy-twice@yandex.ru" [ref=e74] [cursor=pointer]:
+              - /url: mailto:easy-twice@yandex.ru
+            - text: .
+        - generic [ref=e75]:
+          - heading "9. Policy updates" [level=2] [ref=e76]
+          - paragraph [ref=e77]: LAW B2B may update this Policy. A new version applies from the time it is published on the website unless stated otherwise.
+        - generic [ref=e78]:
+          - heading "10. Contact details" [level=2] [ref=e79]
+          - paragraph [ref=e80]:
+            - strong [ref=e81]: LAW B2B
+            - text: 15th Floor, Shanghai Plaza138 Middle Huaihai Road, Huangpu DistrictShanghai, China
+          - paragraph [ref=e82]:
+            - text: "Email:"
+            - link "easy-twice@yandex.ru" [ref=e83] [cursor=pointer]:
+              - /url: mailto:easy-twice@yandex.ru
+            - text: "Phone:"
+            - link "+7 929 978-01-79" [ref=e84] [cursor=pointer]:
+              - /url: tel:+79299780179
+  - contentinfo [ref=e85]:
+    - generic [ref=e86]:
+      - paragraph [ref=e87]: © 2026 LAW B2B
+      - link "Home page" [ref=e88] [cursor=pointer]:
+        - /url: index.html
+      - paragraph [ref=e89]: LAW B2B is a private consulting company and is not a government authority.

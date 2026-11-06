@@ -1,0 +1,33 @@
+DirectoryIndex index.html
+AddDefaultCharset UTF-8
+Options -Indexes
+ServerSignature Off
+LimitRequestBody 16384
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_METHOD} !^(GET|HEAD|POST)$ [NC]
+  RewriteRule ^ - [R=405,L]
+</IfModule>
+
+<FilesMatch "(^\.|\.(?:bak|conf|env|ini|log|sql|ya?ml)$)">
+  Require all denied
+</FilesMatch>
+
+<IfModule mod_headers.c>
+  Header always set Content-Security-Policy "default-src 'self'; base-uri 'self'; connect-src 'self' https://mc.yandex.ru https://*.mc.yandex.ru https://mc.yandex.com https://*.mc.yandex.com; form-action 'self'; frame-ancestors 'none'; img-src 'self' data: https://mc.yandex.ru https://*.mc.yandex.ru https://mc.yandex.com https://*.mc.yandex.com; object-src 'none'; script-src 'self' https://mc.yandex.ru https://mc.yandex.com 'sha256-OeeLLrmveO5Js3G9iLRTV41njlRC70k3Qgl8yHzRUPo=' 'sha256-Wcoup6/iqsRZAKWLZ1aqjZVyldNp7zcrwxQ2AhDgoLs='; style-src 'self'; upgrade-insecure-requests"
+  Header always set Cross-Origin-Opener-Policy "same-origin"
+  Header always set Cross-Origin-Resource-Policy "same-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Strict-Transport-Security "max-age=31536000"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "DENY"
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+  ExpiresByType image/svg+xml "access plus 30 days"
+</IfModule>

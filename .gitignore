@@ -1,0 +1,9 @@
+# Hosting credentials stay on the local machine.
+**/account_hosting.txt
+.env
+.env.*
+!.env.example
+
+# Local operating system files.
+.DS_Store
+**/.DS_Store

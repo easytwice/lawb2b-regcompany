@@ -1,0 +1,406 @@
+- generic [ref=f1e1]:
+  - link "Skip to content" [ref=f1e421] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - link "LAW B2B — на главную" [ref=f1e5] [cursor=pointer]:
+        - /url: "#top"
+        - img "LAW B2B" [ref=f1e6]
+      - navigation "Main navigation" [ref=f1e422]:
+        - link "Services" [ref=f1e423] [cursor=pointer]:
+          - /url: "#services"
+        - link "Pricing" [ref=f1e424] [cursor=pointer]:
+          - /url: "#pricing"
+        - link "Process" [ref=f1e425] [cursor=pointer]:
+          - /url: "#process"
+        - link "FAQ" [ref=f1e426] [cursor=pointer]:
+          - /url: "#faq"
+      - generic [ref=f1e12]:
+        - generic "Language selection" [ref=f1e427]:
+          - button "RU" [ref=f1e14] [cursor=pointer]
+          - generic [aria-hidden] [ref=f1e15]: /
+          - button "EN" [active] [pressed] [ref=f1e16] [cursor=pointer]
+        - link "+7 929 978-01-79" [ref=f1e17] [cursor=pointer]:
+          - /url: tel:+79299780179
+        - link "Consultation" [ref=f1e428] [cursor=pointer]:
+          - /url: "#consultation"
+  - main [ref=f1e19]:
+    - generic [ref=f1e22]:
+      - generic [ref=f1e23]:
+        - generic [ref=f1e24]: Legal support in China
+        - heading "China · Company formation and ready-made companies" [level=1] [ref=f1e429]
+        - paragraph [ref=f1e28]: We set up companies in China end to end — from structure and documents to a business licence and corporate bank account.
+        - generic "Key benefits" [ref=f1e430]:
+          - generic [ref=f1e30]:
+            - strong [ref=f1e31]: Hong Kong & Shanghai
+            - generic [ref=f1e32]: local legal team
+          - generic [ref=f1e33]:
+            - strong [ref=f1e34]: 3–5 weeks
+            - generic [ref=f1e35]: standard formation timeline
+          - generic [ref=f1e36]:
+            - strong [ref=f1e37]: RU · EN · 中文
+            - generic [ref=f1e38]: support in three languages
+        - generic [ref=f1e39]:
+          - link "Message us on Telegram" [ref=f1e431] [cursor=pointer]:
+            - /url: https://t.me/easytwice
+            - generic [ref=f1e43]: Telegram
+          - link "Message us on WhatsApp" [ref=f1e432] [cursor=pointer]:
+            - /url: https://wa.me/79299780179
+            - generic [ref=f1e47]: WhatsApp
+      - complementary [ref=f1e433]:
+        - generic [ref=f1e49]: Now accepting enquiries
+        - heading "Discuss your company formation" [level=2] [ref=f1e434]
+        - paragraph [ref=f1e53]: Leave your details and we will review the task and recommend a suitable structure.
+        - generic [ref=f1e54]:
+          - generic [ref=f1e55]:
+            - generic [ref=f1e56]: Your name
+            - textbox "Your name" [ref=f1e435]:
+              - /placeholder: Name
+          - generic [ref=f1e58]:
+            - generic [ref=f1e59]: Phone
+            - textbox "Phone" [ref=f1e436]:
+              - /placeholder: +1 555 000 0000
+          - generic [ref=f1e61]:
+            - checkbox "I have read and agree to the Privacy Policy." [ref=f1e437]
+            - generic [ref=f1e63]:
+              - text: I have read and agree to the
+              - link "Privacy Policy" [ref=f1e438] [cursor=pointer]:
+                - /url: privacy.html
+              - text: .
+          - button "Get a consultation" [ref=f1e439] [cursor=pointer]:
+            - generic [aria-hidden] [ref=f1e67]: →
+          - paragraph [ref=f1e68]: We respond during business hours. The initial consultation is free.
+          - status
+    - region "LAW B2B in numbers" [ref=f1e440]:
+      - generic [ref=f1e70]:
+        - generic [ref=f1e71]:
+          - strong [ref=f1e72]: "8"
+          - generic [ref=f1e73]: years in the China market
+        - generic [ref=f1e74]:
+          - strong [ref=f1e75]: 150+
+          - generic [ref=f1e76]: companies incorporated
+        - generic [ref=f1e77]:
+          - strong [ref=f1e78]: "12"
+          - generic [ref=f1e79]: cities of presence
+        - generic [ref=f1e80]:
+          - strong [ref=f1e81]: 4.9/5
+          - generic [ref=f1e82]: average client rating
+    - generic [ref=f1e84]:
+      - generic [ref=f1e85]:
+        - generic [ref=f1e86]:
+          - generic [ref=f1e87]: Local presence
+          - heading "In Hong Kong or Shanghai" [level=2] [ref=f1e441]
+        - paragraph [ref=f1e91]: Our lawyers in China handle the filings. The team supports your project from the initial review to receiving the corporate documents.
+      - generic [ref=f1e92]:
+        - generic [ref=f1e97]:
+          - generic [ref=f1e98]: CN
+          - strong [ref=f1e99]: 31°13′N 121°28′E
+        - generic [ref=f1e100]:
+          - article [ref=f1e101]:
+            - generic [ref=f1e102]: "01"
+            - generic [ref=f1e103]:
+              - heading "Local lawyer" [level=3] [ref=f1e442]
+              - paragraph [ref=f1e105]: Handles filings with SAMR and MOFCOM, responds to regulator requests and supports the business licence process.
+          - article [ref=f1e106]:
+            - generic [ref=f1e107]: "02"
+            - generic [ref=f1e108]:
+              - heading "Local representative" [level=3] [ref=f1e443]
+              - paragraph [ref=f1e110]: Receives correspondence from authorities and tracks the filing status and annual reporting deadlines.
+          - article [ref=f1e111]:
+            - generic [ref=f1e112]: "03"
+            - generic [ref=f1e113]:
+              - heading "In-house legal team" [level=3] [ref=f1e444]
+              - paragraph [ref=f1e115]: The work is handled by our own specialists. A preliminary legal assessment of your business is free.
+          - article [ref=f1e116]:
+            - generic [ref=f1e117]: "04"
+            - generic [ref=f1e118]:
+              - heading "Direct bank coordination" [level=3] [ref=f1e445]
+              - paragraph [ref=f1e120]: We coordinate with Bank of China and Chouzhou so the bank receives a properly prepared application pack.
+          - article [ref=f1e121]:
+            - generic [ref=f1e122]: "05"
+            - generic [ref=f1e123]:
+              - heading "Three working languages" [level=3] [ref=f1e446]
+              - paragraph [ref=f1e125]: The team works in Russian, English and Chinese. Documents and filings are prepared in Chinese.
+    - generic [ref=f1e127]:
+      - generic [ref=f1e128]:
+        - generic [ref=f1e129]: Packages and pricing
+        - heading "How much does it cost to open a company in China?" [level=2] [ref=f1e447]
+        - paragraph [ref=f1e133]: Choose a standalone service or a complete solution. The final scope is confirmed after the consultation.
+      - generic [ref=f1e134]:
+        - article [ref=f1e135]:
+          - generic [ref=f1e136]:
+            - generic [ref=f1e137]: "01"
+            - generic [ref=f1e138]: Company in China
+          - heading "WFOE formation" [level=3] [ref=f1e448]
+          - paragraph [ref=f1e140]: For trading, services and a local presence in the Chinese market.
+          - generic [ref=f1e141]: from $2,900
+          - list [ref=f1e142]:
+            - listitem [ref=f1e143]: ✓ Structure and city selection
+            - listitem [ref=f1e144]: ✓ Company incorporation
+            - listitem [ref=f1e145]: ✓ Registered address for 12 months
+            - listitem [ref=f1e146]: ✓ Russian-language support
+          - link "Discuss this package" [ref=f1e449] [cursor=pointer]:
+            - /url: "#consultation"
+            - generic [aria-hidden] [ref=f1e149]: →
+        - article [ref=f1e150]:
+          - generic [ref=f1e151]:
+            - generic [ref=f1e152]: "02"
+            - generic [ref=f1e153]: Financial infrastructure
+          - heading "Bank account opening" [level=3] [ref=f1e450]
+          - paragraph [ref=f1e155]: Corporate and personal accounts with banks in China and Hong Kong.
+          - generic [ref=f1e156]: from $700
+          - list [ref=f1e157]:
+            - listitem [ref=f1e158]: ✓ Bank suitability review
+            - listitem [ref=f1e159]: ✓ Application and document preparation
+            - listitem [ref=f1e160]: ✓ Opening process support
+            - listitem [ref=f1e161]: ✓ International payment setup
+          - link "Discuss this package" [ref=f1e451] [cursor=pointer]:
+            - /url: "#consultation"
+            - generic [aria-hidden] [ref=f1e164]: →
+        - article [ref=f1e165]:
+          - generic [ref=f1e166]:
+            - generic [ref=f1e167]: "03"
+            - generic [ref=f1e168]: Popular solution
+          - heading "Hong Kong company" [level=3] [ref=f1e452]
+          - paragraph [ref=f1e170]: A convenient international jurisdiction for import, export and IT.
+          - generic [ref=f1e171]: from $1,200
+          - list [ref=f1e172]:
+            - listitem [ref=f1e173]: ✓ Formation in 5–7 days
+            - listitem [ref=f1e174]: ✓ Company secretary
+            - listitem [ref=f1e175]: ✓ Registered address for one year
+            - listitem [ref=f1e176]: ✓ Corporate document set
+          - link "Discuss this package" [ref=f1e453] [cursor=pointer]:
+            - /url: "#consultation"
+            - generic [aria-hidden] [ref=f1e179]: →
+        - article [ref=f1e180]:
+          - generic [ref=f1e181]:
+            - generic [ref=f1e182]: "04"
+            - generic [ref=f1e183]: Complete solution
+          - heading "Hong Kong + China account" [level=3] [ref=f1e454]
+          - paragraph [ref=f1e185]: Company registration and a multi-currency account with full support.
+          - generic [ref=f1e186]: $5,500
+          - list [ref=f1e187]:
+            - listitem [ref=f1e188]: ✓ Hong Kong company registration
+            - listitem [ref=f1e189]: ✓ Multi-currency account opening
+            - listitem [ref=f1e190]: ✓ Support at every stage
+            - listitem [ref=f1e191]: ✓ Payments consultation
+          - link "Discuss this package" [ref=f1e455] [cursor=pointer]:
+            - /url: "#consultation"
+            - generic [aria-hidden] [ref=f1e194]: →
+    - generic [ref=f1e196]:
+      - generic [ref=f1e197]:
+        - generic [ref=f1e198]: Fast start
+        - heading "Acquire a ready-made company in China with a bank account" [level=2] [ref=f1e456]
+      - generic [ref=f1e202]:
+        - paragraph [ref=f1e203]: We review the legal history, documents and company status, then support the transaction and ownership transfer.
+        - link "Request available options" [ref=f1e457] [cursor=pointer]:
+          - /url: "#consultation"
+    - generic [ref=f1e206]:
+      - generic [ref=f1e207]:
+        - generic [ref=f1e208]:
+          - generic [ref=f1e209]: Legal framework
+          - heading "2023 Company Law" [level=2] [ref=f1e458]
+        - paragraph [ref=f1e213]: Branch, representative office or WFOE — we select the form based on your activity, ownership and banking needs.
+      - generic [ref=f1e214]:
+        - article [ref=f1e215]:
+          - generic [ref=f1e216]: "2023"
+          - heading "What the law changed" [level=3] [ref=f1e459]
+          - list [ref=f1e218]:
+            - listitem [ref=f1e219]: ✓ 100% foreign ownership is permitted outside the negative list.
+            - listitem [ref=f1e220]: ✓ The law sets no general minimum capital for a WFOE.
+            - listitem [ref=f1e221]: ✓ A registered address is mandatory for a SAMR filing.
+            - listitem [ref=f1e222]: ✓ Many activities require an industry-specific licence.
+        - article [ref=f1e223]:
+          - generic [ref=f1e224]: Registered capital
+          - heading "Five-year contribution period" [level=3] [ref=f1e460]
+          - paragraph [ref=f1e226]: Companies formed before 30 June 2024 have a transition period ending on 30 June 2027.
+        - article [ref=f1e227]:
+          - generic [ref=f1e228]: Foreign exchange control
+          - heading "Separate SAFE registration" [level=3] [ref=f1e461]
+          - paragraph [ref=f1e230]: A foreign-currency account must be registered separately from the company's main RMB account.
+      - paragraph [ref=f1e231]: Website materials are for general information only. Formation and tax requirements are confirmed for each specific project.
+    - generic [ref=f1e233]:
+      - generic [ref=f1e234]:
+        - generic [ref=f1e235]: How it works
+        - heading "From company name to business licence" [level=2] [ref=f1e462]
+        - paragraph [ref=f1e239]: The full cycle usually takes 3–5 weeks. Remote formation under a power of attorney is available as a separate option.
+      - generic [ref=f1e240]:
+        - article [ref=f1e241]:
+          - generic [ref=f1e242]: "01"
+          - generic [ref=f1e243]:
+            - heading "Name and business scope" [level=3] [ref=f1e463]
+            - paragraph [ref=f1e245]: We check three name options with SAMR, reserve an available name and compare the business scope with the negative list.
+        - article [ref=f1e246]:
+          - generic [ref=f1e247]: "02"
+          - generic [ref=f1e248]:
+            - heading "Document preparation" [level=3] [ref=f1e464]
+            - paragraph [ref=f1e250]: We prepare the articles, shareholder resolutions and capital and address documents, then file with SAMR and MOFCOM.
+        - article [ref=f1e251]:
+          - generic [ref=f1e252]: "03"
+          - generic [ref=f1e253]:
+            - heading "Company registration" [level=3] [ref=f1e465]
+            - paragraph [ref=f1e255]: The company is entered in the register and receives a business licence with its Unified Social Credit Code (USCC).
+        - article [ref=f1e256]:
+          - generic [ref=f1e257]: "04"
+          - generic [ref=f1e258]:
+            - heading "Tax and company chop" [level=3] [ref=f1e466]
+            - paragraph [ref=f1e260]: We complete tax registration, obtain the TIN and arrange the company chop. The company can then proceed with banking.
+      - generic [ref=f1e261]:
+        - generic [ref=f1e262]:
+          - generic [ref=f1e263]: Minimum document set
+          - heading "What we need from you" [level=3] [ref=f1e467]
+          - paragraph [ref=f1e265]: Our team prepares the rest.
+        - list [ref=f1e266]:
+          - listitem [ref=f1e267]: Passport copies for shareholders and director
+          - listitem [ref=f1e268]: Proof of residential address in English
+          - listitem [ref=f1e269]: A 2–3 sentence business activity description
+          - listitem [ref=f1e270]: Three proposed company names
+    - generic [ref=f1e272]:
+      - generic [ref=f1e273]:
+        - generic [ref=f1e274]:
+          - generic [ref=f1e275]: After formation
+          - heading "Annual company obligations" [level=2] [ref=f1e468]
+        - paragraph [ref=f1e279]: We help you keep up with reporting calendars, tax deadlines and corporate disclosure requirements.
+      - generic [ref=f1e280]:
+        - article [ref=f1e281]:
+          - generic [ref=f1e282]: "01"
+          - heading "Reporting and deadlines" [level=3] [ref=f1e469]
+          - list [ref=f1e284]:
+            - listitem [ref=f1e285]: Annual NECIPS report — from 1 January to 30 June.
+            - listitem [ref=f1e286]: Corporate disclosure requirements — State Council Regulation No. 654.
+            - listitem [ref=f1e287]: Final corporate income tax reconciliation — by 31 May.
+        - article [ref=f1e288]:
+          - generic [ref=f1e289]: "02"
+          - heading "Tax obligations" [level=3] [ref=f1e470]
+          - list [ref=f1e291]:
+            - listitem [ref=f1e292]: Standard corporate income tax rate — 25%.
+            - listitem [ref=f1e293]: Eligible small enterprises may qualify for an effective 5% rate through the end of 2027.
+            - listitem [ref=f1e294]: "Main VAT rates depend on the transaction: 13%, 9% or 6%."
+        - article [ref=f1e295]:
+          - generic [ref=f1e296]: "03"
+          - heading "New requirements" [level=3] [ref=f1e471]
+          - list [ref=f1e298]:
+            - listitem [ref=f1e299]: The new VAT law applies from 1 January 2026.
+            - listitem [ref=f1e300]: Registered capital must be contributed within five years.
+            - listitem [ref=f1e301]: A foreign-currency account requires separate SAFE registration.
+    - generic [ref=f1e303]:
+      - generic [ref=f1e304]:
+        - generic [ref=f1e305]: Who it is for
+        - heading "Why businesses form a company in China" [level=2] [ref=f1e472]
+        - paragraph [ref=f1e309]: A local legal entity helps build direct relationships with Chinese partners and operate inside the domestic market.
+      - generic [ref=f1e310]:
+        - article [ref=f1e311]:
+          - generic [ref=f1e312]: "01"
+          - heading "Direct work with factories" [level=3] [ref=f1e473]
+        - article [ref=f1e314]:
+          - generic [ref=f1e315]: "02"
+          - heading "Import and export" [level=3] [ref=f1e474]
+        - article [ref=f1e317]:
+          - generic [ref=f1e318]: "03"
+          - heading "Brand localisation" [level=3] [ref=f1e475]
+        - article [ref=f1e320]:
+          - generic [ref=f1e321]: "04"
+          - heading "Domestic market sales" [level=3] [ref=f1e476]
+    - generic [ref=f1e324]:
+      - generic [ref=f1e325]:
+        - generic [ref=f1e326]:
+          - generic [ref=f1e327]: Client notes
+          - heading "Businesses already operating in China" [level=2] [ref=f1e477]
+        - generic [ref=f1e331]:
+          - strong [ref=f1e332]: "4.9"
+          - generic [ref=f1e333]: ★★★★★
+          - generic [ref=f1e334]: average client rating
+      - generic [ref=f1e335]:
+        - article [ref=f1e336]:
+          - generic [ref=f1e337]: “
+          - paragraph [ref=f1e338]: The company delivered 100%. Sergey, our manager, explained everything clearly. In just one month we prepared the required documents and opened a legal entity in Shanghai so we could sell directly on marketplaces with advantages available in the Chinese market.
+          - generic [ref=f1e339]:
+            - generic [ref=f1e340]: К
+            - generic [ref=f1e341]:
+              - strong [ref=f1e342]: LAW B2B client
+              - generic [ref=f1e343]: Marketplace trading
+        - article [ref=f1e344]:
+          - generic [ref=f1e345]: “
+          - paragraph [ref=f1e346]: They helped us register a company for sourcing vehicles in China and supplying them to Russia.
+          - generic [ref=f1e347]:
+            - generic [ref=f1e348]: К
+            - generic [ref=f1e349]:
+              - strong [ref=f1e350]: LAW B2B client
+              - generic [ref=f1e351]: Automotive business
+        - article [ref=f1e352]:
+          - generic [ref=f1e353]: “
+          - paragraph [ref=f1e354]: With LAW B2B's support, we opened a company for wholesale tea supplies from China.
+          - generic [ref=f1e355]:
+            - generic [ref=f1e356]: К
+            - generic [ref=f1e357]:
+              - strong [ref=f1e358]: LAW B2B client
+              - generic [ref=f1e359]: Wholesale trade
+    - generic [ref=f1e361]:
+      - generic [ref=f1e362]:
+        - generic [ref=f1e363]: Frequently asked questions
+        - heading "What to know before you begin" [level=2] [ref=f1e478]
+        - paragraph [ref=f1e367]: During the consultation, we confirm the requirements for your activity and ownership structure.
+      - generic [ref=f1e368]:
+        - group [ref=f1e369]:
+          - generic "Is my chosen activity open to foreign investors? +" [ref=f1e479] [cursor=pointer]
+        - group [ref=f1e371]:
+          - generic "How much registered capital is required? +" [ref=f1e480] [cursor=pointer]
+        - group [ref=f1e373]:
+          - generic "Can the company be formed remotely? +" [ref=f1e481] [cursor=pointer]
+        - group [ref=f1e375]:
+          - generic "How long does formation take? +" [ref=f1e482] [cursor=pointer]
+        - group [ref=f1e377]:
+          - generic "Can you help open a corporate bank account? +" [ref=f1e483] [cursor=pointer]
+        - group [ref=f1e379]:
+          - generic "How is a ready-made company different from a new formation? +" [ref=f1e484] [cursor=pointer]
+    - generic [ref=f1e382]:
+      - generic [ref=f1e383]:
+        - generic [ref=f1e384]: First step
+        - heading "Let's discuss your project" [level=2] [ref=f1e485]
+        - paragraph [ref=f1e388]: Tell us what the company will do. We will recommend a structure, registration city and suitable package.
+        - generic [ref=f1e389]:
+          - link "+7 929 978-01-79" [ref=f1e390] [cursor=pointer]:
+            - /url: tel:+79299780179
+          - link "easy-twice@yandex.ru" [ref=f1e391] [cursor=pointer]:
+            - /url: mailto:easy-twice@yandex.ru
+      - generic [ref=f1e392]:
+        - link "Send an enquiry" [ref=f1e486] [cursor=pointer]:
+          - /url: "#consultation"
+        - generic [ref=f1e394]:
+          - link "Telegram" [ref=f1e395] [cursor=pointer]:
+            - /url: https://t.me/easytwice
+          - link "WhatsApp" [ref=f1e396] [cursor=pointer]:
+            - /url: https://wa.me/79299780179
+  - contentinfo [ref=f1e397]:
+    - generic [ref=f1e398]:
+      - generic [ref=f1e399]:
+        - img "LAW B2B" [ref=f1e400]
+        - paragraph [ref=f1e401]: Company formation, banking and legal support for businesses in China and Hong Kong.
+      - generic [ref=f1e402]:
+        - heading "Navigation" [level=2] [ref=f1e487]
+        - link "Services" [ref=f1e488] [cursor=pointer]:
+          - /url: "#services"
+        - link "Pricing" [ref=f1e489] [cursor=pointer]:
+          - /url: "#pricing"
+        - link "Process" [ref=f1e490] [cursor=pointer]:
+          - /url: "#process"
+        - link "FAQ" [ref=f1e491] [cursor=pointer]:
+          - /url: "#faq"
+      - generic [ref=f1e408]:
+        - heading "Contacts" [level=2] [ref=f1e492]
+        - link "+7 929 978-01-79" [ref=f1e410] [cursor=pointer]:
+          - /url: tel:+79299780179
+        - link "easy-twice@yandex.ru" [ref=f1e411] [cursor=pointer]:
+          - /url: mailto:easy-twice@yandex.ru
+        - link "Telegram" [ref=f1e412] [cursor=pointer]:
+          - /url: https://t.me/easytwice
+        - link "WhatsApp" [ref=f1e413] [cursor=pointer]:
+          - /url: https://wa.me/79299780179
+      - generic [ref=f1e414]:
+        - heading "Shanghai office" [level=2] [ref=f1e493]
+        - generic [ref=f1e416]: 15th Floor, Shanghai Plaza138 Middle Huaihai RoadHuangpu District, Shanghai, China
+    - generic [ref=f1e417]:
+      - paragraph [ref=f1e418]: © 2026 LAW B2B
+      - link "Privacy Policy" [ref=f1e494] [cursor=pointer]:
+        - /url: privacy.html
+      - paragraph [ref=f1e420]: LAW B2B is a private consulting company and is not a government authority.

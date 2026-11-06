@@ -1,0 +1,11 @@
+{
+  "site": "https://lawb2b.ru/",
+  "counter_id": 114104949,
+  "published_files": [
+    "index.htm",
+    "index.html",
+    "privacy.html"
+  ],
+  "verification": "HTTPS content matches uploaded files; exactly one initialization per page",
+  "backup": "output/metrika-deploy-backup"
+}

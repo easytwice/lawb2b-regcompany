@@ -1,0 +1,409 @@
+- generic [active] [ref=e1]:
+  - link "Перейти к содержанию" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "LAW B2B — на главную" [ref=e5] [cursor=pointer]:
+        - /url: "#top"
+        - img "LAW B2B" [ref=e6]
+      - navigation "Основная навигация" [ref=e7]:
+        - link "Услуги" [ref=e8] [cursor=pointer]:
+          - /url: "#services"
+        - link "Тарифы" [ref=e9] [cursor=pointer]:
+          - /url: "#pricing"
+        - link "Этапы" [ref=e10] [cursor=pointer]:
+          - /url: "#process"
+        - link "Вопросы" [ref=e11] [cursor=pointer]:
+          - /url: "#faq"
+      - generic [ref=e12]:
+        - generic "Выбор языка" [ref=e13]:
+          - button "RU" [pressed] [ref=e14] [cursor=pointer]
+          - generic [aria-hidden] [ref=e15]: /
+          - button "EN" [ref=e16] [cursor=pointer]
+        - link "+7 929 978-01-79" [ref=e17] [cursor=pointer]:
+          - /url: tel:+79299780179
+        - link "Консультация" [ref=e18] [cursor=pointer]:
+          - /url: "#consultation"
+  - main [ref=e19]:
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]: Юридическое сопровождение в Китае
+        - heading "Китай · Регистрация компании и готовые фирмы" [level=1] [ref=e27]
+        - paragraph [ref=e28]: Откроем компанию в Китае под ключ — от структуры и документов до бизнес-лицензии и банковского счёта.
+        - generic "Ключевые преимущества" [ref=e29]:
+          - generic [ref=e30]:
+            - strong [ref=e31]: Гонконг и Шанхай
+            - generic [ref=e32]: местная юридическая команда
+          - generic [ref=e33]:
+            - strong [ref=e34]: 3–5 недель
+            - generic [ref=e35]: типовой срок регистрации
+          - generic [ref=e36]:
+            - strong [ref=e37]: RU · EN · 中文
+            - generic [ref=e38]: работаем на трёх языках
+        - generic [ref=e39]:
+          - link "Написать в Telegram" [ref=e40] [cursor=pointer]:
+            - /url: https://t.me/easytwice
+            - generic [ref=e43]: Telegram
+          - link "Написать в WhatsApp" [ref=e44] [cursor=pointer]:
+            - /url: https://wa.me/79299780179
+            - generic [ref=e47]: WhatsApp
+      - complementary [ref=e48]:
+        - generic [ref=e49]: Принимаем заявки
+        - heading "Обсудить открытие компании" [level=2] [ref=e52]
+        - paragraph [ref=e53]: Оставьте контакты — разберём задачу и предложим подходящую структуру.
+        - generic [ref=e54]:
+          - generic [ref=e56]:
+            - text: Website
+            - textbox [ref=e57]
+          - generic [ref=e58]:
+            - generic [ref=e59]: Ваше имя
+            - textbox "Ваше имя" [ref=e60]:
+              - /placeholder: Имя
+          - generic [ref=e61]:
+            - generic [ref=e62]: Телефон
+            - textbox "Телефон" [ref=e63]:
+              - /placeholder: +7 999 000-00-00
+          - generic [ref=e64]:
+            - checkbox "Я ознакомлен и согласен с условиями политики конфиденциальности." [ref=e65]
+            - generic [ref=e66]:
+              - text: Я ознакомлен и согласен с условиями
+              - link "политики конфиденциальности" [ref=e67] [cursor=pointer]:
+                - /url: privacy.html
+              - text: .
+          - button "Получить консультацию" [ref=e68] [cursor=pointer]:
+            - generic [aria-hidden] [ref=e70]: →
+          - paragraph [ref=e71]: Ответим в рабочее время. Первая консультация — бесплатно.
+          - status
+    - region "LAW B2B в цифрах" [ref=e72]:
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - strong [ref=e75]: "8"
+          - generic [ref=e76]: лет на рынке Китая
+        - generic [ref=e77]:
+          - strong [ref=e78]: 150+
+          - generic [ref=e79]: компаний открыто
+        - generic [ref=e80]:
+          - strong [ref=e81]: "12"
+          - generic [ref=e82]: городов присутствия
+        - generic [ref=e83]:
+          - strong [ref=e84]: 4.9/5
+          - generic [ref=e85]: средняя оценка клиентов
+    - generic [ref=e87]:
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - generic [ref=e90]: Местное присутствие
+          - heading "В Гонконге или Шанхае" [level=2] [ref=e93]
+        - paragraph [ref=e94]: Подачу ведут наши юристы в Китае. Команда сопровождает проект от первичной проверки до получения документов.
+      - generic [ref=e95]:
+        - generic [ref=e100]:
+          - generic [ref=e101]: CN
+          - strong [ref=e102]: 31°13′N 121°28′E
+        - generic [ref=e103]:
+          - article [ref=e104]:
+            - generic [ref=e105]: "01"
+            - generic [ref=e106]:
+              - heading "Местный юрист" [level=3] [ref=e107]
+              - paragraph [ref=e108]: Ведёт подачу в SAMR и MOFCOM, отвечает на запросы регулятора и сопровождает получение бизнес-лицензии.
+          - article [ref=e109]:
+            - generic [ref=e110]: "02"
+            - generic [ref=e111]:
+              - heading "Местный представитель" [level=3] [ref=e112]
+              - paragraph [ref=e113]: Принимает корреспонденцию от государственных органов, отслеживает статус дела и сроки годовой отчётности.
+          - article [ref=e114]:
+            - generic [ref=e115]: "03"
+            - generic [ref=e116]:
+              - heading "Юристы в штате" [level=3] [ref=e117]
+              - paragraph [ref=e118]: Работу ведут собственные специалисты компании. Бесплатное заключение по бизнесу — до начала работы.
+          - article [ref=e119]:
+            - generic [ref=e120]: "04"
+            - generic [ref=e121]:
+              - heading "Работа с банками напрямую" [level=3] [ref=e122]
+              - paragraph [ref=e123]: "Взаимодействуем с Bank of China и Chouzhou: банк получает подготовленный комплект документов."
+          - article [ref=e124]:
+            - generic [ref=e125]: "05"
+            - generic [ref=e126]:
+              - heading "Три рабочих языка" [level=3] [ref=e127]
+              - paragraph [ref=e128]: Команда работает на русском, английском и китайском. Документы и подачи готовятся на китайском.
+    - generic [ref=e130]:
+      - generic [ref=e131]:
+        - generic [ref=e132]: Пакеты и цены
+        - heading "Сколько стоит открыть компанию в Китае" [level=2] [ref=e135]
+        - paragraph [ref=e136]: Выберите отдельную услугу или комплексное решение. Финальный состав работ фиксируется после консультации.
+      - generic [ref=e137]:
+        - article [ref=e138]:
+          - generic [ref=e139]:
+            - generic [ref=e140]: "01"
+            - generic [ref=e141]: Компания в Китае
+          - heading "Регистрация WFOE" [level=3] [ref=e142]
+          - paragraph [ref=e143]: Для торговли, услуг и локального присутствия на китайском рынке.
+          - generic [ref=e144]: от $2,900
+          - list [ref=e145]:
+            - listitem [ref=e146]: ✓ Подбор структуры и города
+            - listitem [ref=e147]: ✓ Регистрация компании
+            - listitem [ref=e148]: ✓ Юридический адрес на 12 месяцев
+            - listitem [ref=e149]: ✓ Поддержка на русском языке
+          - link "Обсудить пакет" [ref=e150] [cursor=pointer]:
+            - /url: "#consultation"
+            - generic [aria-hidden] [ref=e152]: →
+        - article [ref=e153]:
+          - generic [ref=e154]:
+            - generic [ref=e155]: "02"
+            - generic [ref=e156]: Финансовая инфраструктура
+          - heading "Открытие счёта" [level=3] [ref=e157]
+          - paragraph [ref=e158]: Корпоративные и личные счета в банках Китая и Гонконга.
+          - generic [ref=e159]: от $700
+          - list [ref=e160]:
+            - listitem [ref=e161]: ✓ Проверка банка под задачу
+            - listitem [ref=e162]: ✓ Подготовка анкеты и документов
+            - listitem [ref=e163]: ✓ Сопровождение открытия
+            - listitem [ref=e164]: ✓ Настройка международных платежей
+          - link "Обсудить пакет" [ref=e165] [cursor=pointer]:
+            - /url: "#consultation"
+            - generic [aria-hidden] [ref=e167]: →
+        - article [ref=e168]:
+          - generic [ref=e169]:
+            - generic [ref=e170]: "03"
+            - generic [ref=e171]: Популярное решение
+          - heading "Компания в Гонконге" [level=3] [ref=e172]
+          - paragraph [ref=e173]: Международная юрисдикция для импорта, экспорта и IT.
+          - generic [ref=e174]: от $1,200
+          - list [ref=e175]:
+            - listitem [ref=e176]: ✓ Регистрация за 5–7 дней
+            - listitem [ref=e177]: ✓ Номинальный секретарь
+            - listitem [ref=e178]: ✓ Юридический адрес на год
+            - listitem [ref=e179]: ✓ Комплект корпоративных документов
+          - link "Обсудить пакет" [ref=e180] [cursor=pointer]:
+            - /url: "#consultation"
+            - generic [aria-hidden] [ref=e182]: →
+        - article [ref=e183]:
+          - generic [ref=e184]:
+            - generic [ref=e185]: "04"
+            - generic [ref=e186]: Комплексное решение
+          - heading "Гонконг + счёт в Китае" [level=3] [ref=e187]
+          - paragraph [ref=e188]: Регистрация компании и открытие мультивалютного счёта с поддержкой.
+          - generic [ref=e189]: $5,500
+          - list [ref=e190]:
+            - listitem [ref=e191]: ✓ Регистрация компании в Гонконге
+            - listitem [ref=e192]: ✓ Открытие мультивалютного счёта
+            - listitem [ref=e193]: ✓ Поддержка на всех этапах
+            - listitem [ref=e194]: ✓ Консультация по платежам
+          - link "Обсудить пакет" [ref=e195] [cursor=pointer]:
+            - /url: "#consultation"
+            - generic [aria-hidden] [ref=e197]: →
+    - generic [ref=e199]:
+      - generic [ref=e200]:
+        - generic [ref=e201]: Быстрый старт
+        - heading "Купить готовую компанию в Китае со счётом" [level=2] [ref=e204]
+      - generic [ref=e205]:
+        - paragraph [ref=e206]: Проверим юридическую историю, документы и статус компании, подготовим сделку и смену владельца.
+        - link "Запросить варианты" [ref=e207] [cursor=pointer]:
+          - /url: "#consultation"
+    - generic [ref=e209]:
+      - generic [ref=e210]:
+        - generic [ref=e211]:
+          - generic [ref=e212]: Правовая основа
+          - heading "Закон о компаниях 2023" [level=2] [ref=e215]
+        - paragraph [ref=e216]: Филиал, представительство или WFOE — подбираем форму под деятельность, собственников и банковские задачи.
+      - generic [ref=e217]:
+        - article [ref=e218]:
+          - generic [ref=e219]: "2023"
+          - heading "Что изменил закон" [level=3] [ref=e220]
+          - list [ref=e221]:
+            - listitem [ref=e222]: ✓ 100% иностранное владение доступно вне негативного списка.
+            - listitem [ref=e223]: ✓ Закон не устанавливает общий минимальный капитал для WFOE.
+            - listitem [ref=e224]: ✓ Юридический адрес обязателен для подачи документов в SAMR.
+            - listitem [ref=e225]: ✓ Для многих видов деятельности требуется отраслевая лицензия.
+        - article [ref=e226]:
+          - generic [ref=e227]: Уставный капитал
+          - heading "Срок внесения — пять лет" [level=3] [ref=e228]
+          - paragraph [ref=e229]: Для компаний, созданных до 30 июня 2024 года, предусмотрен переходный период до 30 июня 2027 года.
+        - article [ref=e230]:
+          - generic [ref=e231]: Валютный контроль
+          - heading "Отдельная регистрация в SAFE" [level=3] [ref=e232]
+          - paragraph [ref=e233]: Валютный счёт регистрируется отдельно от основного счёта компании в юанях.
+      - paragraph [ref=e234]: Материалы на сайте носят информационный характер. Условия регистрации и налогообложения уточняются для конкретного проекта.
+    - generic [ref=e236]:
+      - generic [ref=e237]:
+        - generic [ref=e238]: Порядок работы
+        - heading "От названия до бизнес-лицензии" [level=2] [ref=e241]
+        - paragraph [ref=e242]: Полный цикл занимает 3–5 недель. Дистанционная регистрация возможна по доверенности как отдельная опция.
+      - generic [ref=e243]:
+        - article [ref=e244]:
+          - generic [ref=e245]: "01"
+          - generic [ref=e246]:
+            - heading "Название и деятельность" [level=3] [ref=e247]
+            - paragraph [ref=e248]: Проверяем три варианта названия в SAMR, резервируем свободное и сверяем деятельность с негативным списком.
+        - article [ref=e249]:
+          - generic [ref=e250]: "02"
+          - generic [ref=e251]:
+            - heading "Подготовка документов" [level=3] [ref=e252]
+            - paragraph [ref=e253]: Готовим устав, решения участников, документы по капиталу и адресу. Подаём комплект в SAMR и MOFCOM.
+        - article [ref=e254]:
+          - generic [ref=e255]: "03"
+          - generic [ref=e256]:
+            - heading "Регистрация компании" [level=3] [ref=e257]
+            - paragraph [ref=e258]: Компания вносится в реестр и получает бизнес-лицензию с единым кодом социального доверия USCC.
+        - article [ref=e259]:
+          - generic [ref=e260]: "04"
+          - generic [ref=e261]:
+            - heading "Налоги и печать" [level=3] [ref=e262]
+            - paragraph [ref=e263]: Ставим компанию на налоговый учёт, получаем TIN и изготавливаем печать. После этого можно открывать счёт.
+      - generic [ref=e264]:
+        - generic [ref=e265]:
+          - generic [ref=e266]: Минимальный комплект
+          - heading "Что нужно от вас" [level=3] [ref=e267]
+          - paragraph [ref=e268]: Остальное готовит наша команда.
+        - list [ref=e269]:
+          - listitem [ref=e270]: Копии паспортов учредителей и директора
+          - listitem [ref=e271]: Подтверждение адреса проживания на английском
+          - listitem [ref=e272]: Описание деятельности в 2–3 предложениях
+          - listitem [ref=e273]: Три варианта названия компании
+    - generic [ref=e275]:
+      - generic [ref=e276]:
+        - generic [ref=e277]:
+          - generic [ref=e278]: После регистрации
+          - heading "Ежегодные обязанности компании" [level=2] [ref=e281]
+        - paragraph [ref=e282]: Помогаем соблюдать календарь отчётности, налоговые сроки и требования к корпоративным данным.
+      - generic [ref=e283]:
+        - article [ref=e284]:
+          - generic [ref=e285]: "01"
+          - heading "Отчётность и сроки" [level=3] [ref=e286]
+          - list [ref=e287]:
+            - listitem [ref=e288]: Годовой отчёт в NECIPS — с 1 января по 30 июня.
+            - listitem [ref=e289]: Раскрытие сведений — по постановлению Госсовета № 654.
+            - listitem [ref=e290]: Окончательный расчёт налога на прибыль — до 31 мая.
+        - article [ref=e291]:
+          - generic [ref=e292]: "02"
+          - heading "Налоговые обязательства" [level=3] [ref=e293]
+          - list [ref=e294]:
+            - listitem [ref=e295]: Стандартная ставка налога на прибыль — 25%.
+            - listitem [ref=e296]: Для соответствующих критериям малых предприятий — эффективная ставка 5% до конца 2027 года.
+            - listitem [ref=e297]: "Основные ставки НДС зависят от операции: 13%, 9% или 6%."
+        - article [ref=e298]:
+          - generic [ref=e299]: "03"
+          - heading "Новые требования" [level=3] [ref=e300]
+          - list [ref=e301]:
+            - listitem [ref=e302]: С 1 января 2026 года действует новый закон о НДС.
+            - listitem [ref=e303]: Уставный капитал необходимо внести в течение пяти лет.
+            - listitem [ref=e304]: Валютный счёт требует отдельной регистрации в SAFE.
+    - generic [ref=e306]:
+      - generic [ref=e307]:
+        - generic [ref=e308]: Кому подходит
+        - heading "Зачем открывают компанию в Китае" [level=2] [ref=e311]
+        - paragraph [ref=e312]: Юридическое лицо помогает выстроить прямые отношения с китайскими партнёрами и работать внутри локального рынка.
+      - generic [ref=e313]:
+        - article [ref=e314]:
+          - generic [ref=e315]: "01"
+          - heading "Прямая работа с фабриками" [level=3] [ref=e316]
+        - article [ref=e317]:
+          - generic [ref=e318]: "02"
+          - heading "Экспорт и импорт" [level=3] [ref=e319]
+        - article [ref=e320]:
+          - generic [ref=e321]: "03"
+          - heading "Локализация бренда" [level=3] [ref=e322]
+        - article [ref=e323]:
+          - generic [ref=e324]: "04"
+          - heading "Продажи на внутреннем рынке" [level=3] [ref=e325]
+    - generic [ref=e327]:
+      - generic [ref=e328]:
+        - generic [ref=e329]:
+          - generic [ref=e330]: Отзывы
+          - heading "Бизнес, который уже работает в Китае" [level=2] [ref=e333]
+        - generic [ref=e334]:
+          - strong [ref=e335]: "4.9"
+          - generic [ref=e336]: ★★★★★
+          - generic [ref=e337]: средняя оценка клиентов
+      - generic [ref=e338]:
+        - article [ref=e339]:
+          - generic [ref=e340]: “
+          - paragraph [ref=e341]: Компания справилась на все 100%. Менеджер Сергей всё подробно объяснил. Всего за один месяц мы собрали документы и открыли юридическое лицо в Шанхае, чтобы напрямую торговать на маркетплейсах с преимуществами для китайского рынка.
+          - generic [ref=e342]:
+            - generic [ref=e343]: К
+            - generic [ref=e344]:
+              - strong [ref=e345]: Клиент LAW B2B
+              - generic [ref=e346]: Торговля на маркетплейсах
+        - article [ref=e347]:
+          - generic [ref=e348]: “
+          - paragraph [ref=e349]: Помогли зарегистрировать компанию для подбора автомобилей в Китае и их поставок на территорию России.
+          - generic [ref=e350]:
+            - generic [ref=e351]: К
+            - generic [ref=e352]:
+              - strong [ref=e353]: Клиент LAW B2B
+              - generic [ref=e354]: Автомобильный бизнес
+        - article [ref=e355]:
+          - generic [ref=e356]: “
+          - paragraph [ref=e357]: Благодаря LAW B2B открыли компанию для оптовых поставок чайной продукции из Китая.
+          - generic [ref=e358]:
+            - generic [ref=e359]: К
+            - generic [ref=e360]:
+              - strong [ref=e361]: Клиент LAW B2B
+              - generic [ref=e362]: Оптовая торговля
+    - generic [ref=e364]:
+      - generic [ref=e365]:
+        - generic [ref=e366]: Популярные вопросы
+        - heading "Что важно знать до начала работы" [level=2] [ref=e369]
+        - paragraph [ref=e370]: На консультации уточним требования именно для вашей деятельности и состава учредителей.
+      - generic [ref=e371]:
+        - group [ref=e372]:
+          - generic "Доступен ли выбранный вид деятельности иностранцу? +" [ref=e373] [cursor=pointer]
+        - group [ref=e374]:
+          - generic "Какой уставный капитал необходим? +" [ref=e375] [cursor=pointer]
+        - group [ref=e376]:
+          - generic "Можно ли зарегистрировать компанию дистанционно? +" [ref=e377] [cursor=pointer]
+        - group [ref=e378]:
+          - generic "Сколько занимает регистрация? +" [ref=e379] [cursor=pointer]
+        - group [ref=e380]:
+          - generic "Можно ли открыть корпоративный счёт? +" [ref=e381] [cursor=pointer]
+        - group [ref=e382]:
+          - generic "Чем готовая компания отличается от регистрации с нуля? +" [ref=e383] [cursor=pointer]
+    - generic [ref=e385]:
+      - generic [ref=e386]:
+        - generic [ref=e387]: Первый шаг
+        - heading "Обсудим вашу задачу" [level=2] [ref=e390]
+        - paragraph [ref=e391]: Расскажите, чем будет заниматься компания. Мы предложим структуру, город регистрации и подходящий пакет.
+        - generic [ref=e392]:
+          - link "+7 929 978-01-79" [ref=e393] [cursor=pointer]:
+            - /url: tel:+79299780179
+          - link "easy-twice@yandex.ru" [ref=e394] [cursor=pointer]:
+            - /url: mailto:easy-twice@yandex.ru
+      - generic [ref=e395]:
+        - link "Оставить заявку" [ref=e396] [cursor=pointer]:
+          - /url: "#consultation"
+        - generic [ref=e397]:
+          - link "Telegram" [ref=e398] [cursor=pointer]:
+            - /url: https://t.me/easytwice
+          - link "WhatsApp" [ref=e399] [cursor=pointer]:
+            - /url: https://wa.me/79299780179
+  - contentinfo [ref=e400]:
+    - generic [ref=e401]:
+      - generic [ref=e402]:
+        - img "LAW B2B" [ref=e403]
+        - paragraph [ref=e404]: Регистрация компаний, банковские счета и юридическое сопровождение бизнеса в Китае и Гонконге.
+      - generic [ref=e405]:
+        - heading "Навигация" [level=2] [ref=e406]
+        - link "Услуги" [ref=e407] [cursor=pointer]:
+          - /url: "#services"
+        - link "Тарифы" [ref=e408] [cursor=pointer]:
+          - /url: "#pricing"
+        - link "Этапы" [ref=e409] [cursor=pointer]:
+          - /url: "#process"
+        - link "Вопросы" [ref=e410] [cursor=pointer]:
+          - /url: "#faq"
+      - generic [ref=e411]:
+        - heading "Контакты" [level=2] [ref=e412]
+        - link "+7 929 978-01-79" [ref=e413] [cursor=pointer]:
+          - /url: tel:+79299780179
+        - link "easy-twice@yandex.ru" [ref=e414] [cursor=pointer]:
+          - /url: mailto:easy-twice@yandex.ru
+        - link "Telegram" [ref=e415] [cursor=pointer]:
+          - /url: https://t.me/easytwice
+        - link "WhatsApp" [ref=e416] [cursor=pointer]:
+          - /url: https://wa.me/79299780179
+      - generic [ref=e417]:
+        - heading "Офис в Шанхае" [level=2] [ref=e418]
+        - generic [ref=e419]: 15th Floor, Shanghai Plaza138 Middle Huaihai RoadHuangpu District, Shanghai, China
+    - generic [ref=e420]:
+      - paragraph [ref=e421]: © 2026 LAW B2B
+      - link "Политика конфиденциальности" [ref=e422] [cursor=pointer]:
+        - /url: privacy.html
+      - paragraph [ref=e423]: LAW B2B — частная консалтинговая компания и не является государственным органом.
